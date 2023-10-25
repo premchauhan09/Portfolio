@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prem's portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/bd222462a8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+               <ul id="sidemenu">
+                <li> <a href="#header">Home</a></li>
+                <li> <a href="#about">About</a></li>
+                <li> <a href="#services">Services</a></li>
+                <li> <a href="#portfolio">Portfolio</a></li>
+                <li> <a href="#contact">Contact</a></li>
+                <i class="fa-regular fas fa-times" onclick="closemenu()"></i>
+               </ul>
+               <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Frontend / CPP Developer </p>
+                <h1>Hi, I'm <span>Prem</span>  <br> From India</h1>
+            </div>
+        </div>
+    </div>
+    <!--About-->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/photo_2023-10-19_10-46-59.jpg" alt="pic">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                   <p>I'm Prem Kumar , a computer science B.Tech student from University Instituteof Engineering And Technology MDU Rohtak, with a deep passion for technology. I enjoy solving complex problems and crafting elegant solutions through coding. My academic journey has provided a strong foundation in computer science, and I constantly seek to expand my horizons.This portfolio showcases my work and represents my commitment to excellence. I'm open to collaborations and discussions, so feel free to connect with me. Together, let's shape the future of technology.</p>
+                   <div class="tab_titles">
+                    <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('Experience')" >Experience</p>
+                    <p class="tab-links"onclick="opentab('Education')">Education</p>
+                   </div>
+                   <div class="tab-contents active-tab" id="Skills">
+                    <ul>
+                        <li><span>UI/Ux</span><br>Designing web/app interfaces</li>
+                        <li><span>Web Development</span><br> Web app development</li>
+                        <li><span>C++</span><br>Data structure in C++</li>
+                    </ul>
+                   </div>
+                   <div class="tab-contents" id = "Experience">
+                    <ul>
+                        <li><span>Jul 2023 - Aug 2023
+                        </span><br>Web Developer at CodeClause</li>
+                        <li><span>Sep 2022 - Oct 202e</span><br> Design Lead at GDSC UIET </li>
+                        <li><span>Nov 2022 - Nov 2023</span><br>Design Mentor at Geekhub UIET</li>
+                        <li><span>Nov 2022 - Current</span><br>Freelance in Chegg Inc as SME</li>
+                    </ul>
+                   </div>
+                   <div class="tab-contents"id="Education">
+                    <ul>
+                        <li><span>2020 - Current
+                        </span><br>University Institute Of Engineering And technology MDU Rohtak</li>
+                        <li><span>2020</span><br>12th From Government Model Senior Secondary School Sarai Khawaja LLC</li>
+                        <li><span>2018</span><br>10th from S S vidya Mandir Senior Secondary School Palla</li>
+                    </ul>
+                   </div>
+                 
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-------------------------------Services-------------------------------------->
+
+    <div id = "services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class = "services-list">
+                <div>
+                    <i class="fa-solid fa-pen-nib"></i>
+                    <h2>
+                        UI/UX
+                    </h2>
+                    <p>During my time in college, I've had the privilege of immersing myself in the exciting world of UI/UX design. Working closely with my peers, I've contributed to crafting user-friendly interfaces that enhance the overall experience within our college community.</p>
+                    <a href="#">Learn more</a>
+                </div><div>
+                    <i class="fa-solid fa-laptop"></i>
+                    <h2>
+                        Web Design
+                    </h2>
+                    <p> During my one-month internship at CodeClause as a web developer, I had the opportunity to work on two exciting projects. The first project involved creating a URL shortener application, which allowed for efficient and user-friendly link management. The second project was the development of a captivating landing website, designed to engage and inform users about the company's services.  </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>
+                       C++/DSA
+                    </h2>
+                    <p>My C++ and Data Structures & Algorithms (DSA) learning phase has been transformative. Through focused study and practical experience, I've sharpened my programming and problem-solving skills. This journey fuels my passion for computer science and equips me to tackle real-world challenges with efficiency and precision. </p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-----------------My Portfolio--------------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-tittle">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/1.jpg">
+                    <div class="layer">
+                        <h3>URL Shortner </h3>
+                        <p>I developed a URL shortener project that streamlines link management. It's a user-friendly web application designed to create concise, easy-to-share links. This project demonstrates my web development skills and problem-solving capabilities.
+                        </p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/2.jpg">
+                    <div class="layer">
+                        <h3>Landing Website</h3>
+                        <p>My landing website project showcases my design and development skills. It's an engaging platform that effectively communicates the core message of a brand, highlighting my ability to create captivating, informative web experiences.
+                        </p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/4.jpg">
+                    <div class="layer">
+                        <h3>Tic-tac-toe Game</h3>
+                        <p>My C++ Tic-Tac-Toe game project demonstrates my programming prowess. It's an interactive and strategic game, showcasing my ability to create engaging applications that combine logic and user experience. </p>
+                       
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+
+            </div>
+            <a href="#"class = "btn">see more</a>
+           
+
+        </div>
+    </div>
+    <!---------------------contact----------------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+             <h1 class="sub-title">
+                Contact Me
+             </h1>
+             <p><i class="fa-solid fa-envelope"></i> prem059684@gmail.com</p>
+             <p><i class="fa-solid fa-phone"></i> 9599178500</p>
+             <div class="social-icons">
+                <a href="https://www.facebook.com/profile.php?id=100010721562273&viewas=&show_switched_toast=false&show_switched_tooltip=false&is_tour_dismissed=false&is_tour_completed=false&show_podcast_settings=false&show_community_review_changes=false&should_open_composer=false&badge_type=NEW_MEMBER&show_community_rollback_toast=false&show_community_rollback=false&show_follower_visibility_disclosure=false&bypass_exit_warning=true"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://twitter.com/_prem_chauhan"><i class="fa-brands fa-twitter-square"></i></a>
+                <a href="https://www.instagram.com/premchauhan__09/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/prem-kumar-45b179202/"><i class="fa-brands fa-linkedin"></i></a>
+           
+             <a href="images/RESUME WITH HR3.pdf" download class="btn btn2">Download CV</a>
+                </div>
+            </div>
+            
+                <div class="contact-right">
+                   <form name="submit-to-google-sheet">
+                    <input type="text"name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class = "btn btn2"> Submit </button>
+                   </form>
+                   <span id = "msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>
+                copyright  ⓒ Kevin. Made with <i class="fas fa-heart"></i> by Easy Tutorials</p>
+            </p>
+        </div>
+    </div>
+
+  <script>
+    var tablinks = document.getElementsByClassName("tab-links")  ;
+    var tabcontents = document.getElementsByClassName("tab-contents")  ;
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+  </script>
+  <script>
+    var sidemenu = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right= "0px";
+    }
+    function closemenu(){
+        sidemenu.style.right= "-200px";
+    }
+  </script>
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbz5vB7wz9ZWbuBZJ2LBZo_g2v79llxNcJJmvoEgElJGbRdTe2qpYTcVaAdC4mQv6_JVcA/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML="Message sent succesfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
